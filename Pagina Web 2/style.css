@@ -1,0 +1,120 @@
+body {
+    margin:0; 
+    width: 78.8vmax;
+}
+#contenedor{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#main{
+    width: 75%;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 15%;
+}
+#header img{
+    height: 140.547px;
+}
+#header button{
+    padding: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: auto;
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 50px;
+    box-shadow: 0 8px 16px 0 rgba(36, 36, 36, 0.2), 0 1px 3px 0 rgba(46, 46, 46, 0.075);
+    font-size: 20px;
+    color: rgb(102, 102, 102);
+    letter-spacing: 1px;
+    background-color: white;
+    border: rgb(65, 65, 65) 0.5px solid;
+    border-radius: 5px;
+    
+}
+#header button:hover{
+    background-color: rgba(224, 224, 224, 0.747);
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: ;
+    padding: 400px;
+    padding-bottom: 330px;
+    padding-top: 150px;
+
+
+}
+#content p{
+    font-size: 25px;
+    color: rgb(65, 65, 65);
+    text-align: center;
+}
+
+#formulario input{
+    width: 334px;
+    margin-bottom: 25px;
+    padding: 8px;
+    font-size: 15px;
+    border: white 0px solid;
+    box-shadow: 0 8px 16px 0 rgba(36, 36, 36, 0.2), 0 1px 3px 0 rgba(46, 46, 46, 0.075);
+}
+#formulario form input[type="submit"]{
+    width: 350px;
+    color: white;
+    background-color: rgb(216, 214, 88);
+    border: 2px solid rgb(216, 214, 88);
+    font-size: 20px;
+    
+}
+#content a{
+    text-decoration: none;
+    float: right;
+}
+#footer{
+    text-align: center;
+    align-self: baseline;
+}
+#footer a{
+    text-decoration: none;
+
+}
+#aside{
+    width: 25%;
+}
+
+@media (max-width: 768px){
+    #aside{
+        display: none;
+    }
+    #main{
+        width: 100%;
+    }
+    #header{
+        height: 10%;
+        margin-right: 10px;
+    }
+    #header button{
+        font-size: 18px;
+        padding: 8px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        width: 200px;
+        margin: auto;
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+    #content{
+        padding-left: 180px;
+        margin: auto;
+    }
+}
+
