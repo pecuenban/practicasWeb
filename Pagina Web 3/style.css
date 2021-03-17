@@ -13,8 +13,7 @@ body{
     flex-wrap: nowrap;
 }
 #aside{
-    width: 20%;
-
+    width: 15%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -50,7 +49,7 @@ body{
     font-size: 20px;
 }
 #menuselect{
-    background-color: white;
+    background-color: rgb(224, 224, 224);
     
 }
 #menuselect a{
@@ -68,8 +67,8 @@ body{
     left: 96%;
     border-left: 10px solid transparent;
     border-top: 10px solid transparent;
-    border-right: 10px solid white;
-    border-bottom: 10px solid white;
+    border-right: 10px solid rgb(224, 224, 224);
+    border-bottom: 10px solid rgb(224, 224, 224);
     margin-bottom: 0px;
     border-radius: 5px;
 }
@@ -85,26 +84,241 @@ body{
     left: 96%;
     border-left: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-right: 10px solid white;
-    border-top: 10px solid white;
+    border-right: 10px solid rgb(224, 224, 224);
+    border-top: 10px solid rgb(224, 224, 224);
     border-radius: 5px;
 }
 #main{
-    width: 80%;
-    border: solid white 1px;
+    width: 84%;
+    border: solid rgb(224, 224, 224) 0px;
     border-radius: 30px;
-    background-color: white;
+    background-color: rgb(224, 224, 224);
     position: fixed;
     top: 5%;
-    left: 20%;
+    left: 15%;
     bottom: 5%;
 }
 #header img{
-    width: 30px;
+    width: 25px;
+    margin: 5px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 95%;
+    padding: 8px;
+    border: 0px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin: 25px;
+    margin-left: 28px;
+    box-shadow: 0 8px 16px 0 rgba(36, 36, 36, 0.541), 0 1px 3px 0 rgba(46, 46, 46, 0.151);
+}
+#buscador{
+    width: 80%;
+    margin-right: 40px;
+}
+#buscador form input{
+    width: 90%;
+    font-size: 20px;
+    border: white 0px solid;
+    margin-left: 3px;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    background-color: white;
+}
+/**
+    Contenido ofertas
+*/
+#contentofertas h1{
+    text-align: center;
+}
+
+
+.cuadroseleccion{
+    border: rgb(97, 97, 97) 1px solid;
+    border-radius: 20px;
+    background-color: rgb(97, 97, 97);
+    width: 10%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 1px 3px 0 rgb(36, 36, 36);
+}
+.cuadroseleccion a{
+    position: static;
+    top: px;
+    bottom: 30px;
+    left: 2px;
+    right: 2px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 10px;
 }
 .cuadroseleccion img{
-    width: 100px;
+    width: 150px;
+    margin: auto;
+    position: relative;
+    top: 55px;
+    left: 1px;
+    right: 1px;
+    bottom: -20%;
 }
+#cortoferta img{
+    position: relative;
+    top: 85px;
+    left: 1px;
+    right: 1px;
+    bottom: -20%;
+}
+#categoriaofertas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly   ;
+    margin-right: 20px;
+}
+#productosdeoferta{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cuadroselecto{
+    border: grey 0px solid;
+    border-radius: 25px;
+    background-color: white;
+    padding: 1%;
+    width: 15%;
+    margin: 4%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    box-shadow: 0 8px 16px 0 rgba(36, 36, 36, 0.541), 0 1px 3px 0 rgba(46, 46, 46, 0.151);
+    text-align: center;
+}   
+.cuadroselecto a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#footerofertas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;    
+}
+.footerofertas{
+    width: 50%;
+    padding: 20px;
+}
+#footerleft{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+#footerright{
+    margin-top: 21px;
+}
+#footerofertas a{
+    border: black 0px solid;
+    border-radius: 15px;
+    background-color: grey;
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+/**
+    Contenido productos
+*/
+
+
+/**
+    Contenido cuenta
+*/
+.maincuenta{
+    background-image: url("imagenes/fondocuenta.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#contentcuenta{
+    width: 35%;
+    height: 75%;
+    margin: auto;
+    margin-top: 30px;
+    border: 0px white solid;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(36, 36, 36, 0.541), 0 1px 3px 0 rgba(46, 46, 46, 0.151);
+    padding: 25px;
+    
+}
+#editarmicuenta img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    margin-top: 28px;
+    margin-right: 20px;
+}
+
+#editarmicuenta{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.opcionescuenta{
+    margin-left: 8%;
+    margin-top: 3%;
+}
+.opcionescuenta a{
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+    font-size: 23px;
+}
+.opcionescuenta:after{
+    content: "";
+    display:block;
+    width:100%;
+    height:1px;
+    margin: auto;
+    margin-top: 6px;
+    margin-left: -7%;
+    background: rgb(201, 201, 201);
+    border-radius: 15%;
+}
+#guardardatoscuenta{
+    border: rgb(226, 109, 0) solid 1px;
+    width: 80%;
+    margin: auto;
+    border-radius: 15px;
+    background-color: rgb(226, 109, 0);
+    margin-top: 15%;
+    padding: 15px;
+    text-align: center;
+}
+#guardardatoscuenta a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+
+}
+/**
+    Media queries para dispositivos
+*/
+
 @media (max-width: 1100px){
     #aside{
         width: 30%;
